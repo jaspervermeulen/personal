@@ -1,6 +1,7 @@
 import './index.css';
 
 import Profile from './person.png';
+import TuinenVermeulen from './assets/tuinenvermeulen.png';
 
 function App() {
   return (
@@ -17,6 +18,28 @@ function App() {
         </p>
 
         <p>Selected Work</p>
+        <div className="pt-2 pb-6 grid grid-cols-1 sm:grid-cols-2 gap-2">
+          <img
+            className="rounded transform"
+            src={TuinenVermeulen}
+            alt="Tuinen Vermeulen"
+          />
+          <img
+            className="rounded"
+            src={TuinenVermeulen}
+            alt="Tuinen Vermeulen"
+          />
+          <img
+            className="rounded"
+            src={TuinenVermeulen}
+            alt="Tuinen Vermeulen"
+          />
+          <img
+            className="rounded"
+            src={TuinenVermeulen}
+            alt="Tuinen Vermeulen"
+          />
+        </div>
         <p>Insights</p>
       </div>
     </div>
